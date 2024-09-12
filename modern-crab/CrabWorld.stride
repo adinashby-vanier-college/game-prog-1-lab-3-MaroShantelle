@@ -14,8 +14,135 @@
             <params/>
             <throws/>
             <delegate target="super" params="560,560,1" params-java="560, 560, 1"/>
-            <body/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
         </constructor>
     </constructors>
-    <methods/>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="Crab" type-java="Crab" name="crab" value="new Crab()" value-java=" new Crab()" enable="true"/>
+                <call expression="addObject(crab,168,303)" expression-java="addObject(crab, 168, 303)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm,406,146)" expression-java="addObject(worm, 406, 146)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm2" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm2,103,138)" expression-java="addObject(worm2, 103, 138)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm3" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm3,408,427)" expression-java="addObject(worm3, 408, 427)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm4" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm4,152,446)" expression-java="addObject(worm4, 152, 446)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm5" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm5,355,266)" expression-java="addObject(worm5, 355, 266)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm6" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm6,503,89)" expression-java="addObject(worm6, 503, 89)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm7" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm7,203,106)" expression-java="addObject(worm7, 203, 106)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm8" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm8,61,386)" expression-java="addObject(worm8, 61, 386)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm9" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm9,507,511)" expression-java="addObject(worm9, 507, 511)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm10" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm10,267,370)" expression-java="addObject(worm10, 267, 370)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm11" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm11,108,46)" expression-java="addObject(worm11, 108, 46)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster,242,234)" expression-java="addObject(lobster, 242, 234)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster2" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster2,48,506)" expression-java="addObject(lobster2, 48, 506)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster3" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster3,486,369)" expression-java="addObject(lobster3, 486, 369)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster4" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster4,45,90)" expression-java="addObject(lobster4, 45, 90)" enable="true"/>
+                <variable type="Crab" type-java="Crab" name="crab2" value="new Crab()" value-java=" new Crab()" enable="true"/>
+                <call expression="addObject(crab2,302,134)" expression-java="addObject(crab2, 302, 134)" enable="true"/>
+                <variable type="Crab" type-java="Crab" name="crab3" value="new Crab()" value-java=" new Crab()" enable="true"/>
+                <call expression="addObject(crab3,328,488)" expression-java="addObject(crab3, 328, 488)" enable="true"/>
+                <variable type="Crab" type-java="Crab" name="crab4" value="new Crab()" value-java=" new Crab()" enable="true"/>
+                <call expression="addObject(crab4,458,248)" expression-java="addObject(crab4, 458, 248)" enable="true"/>
+                <call expression="worm6.setLocation(504,90)" expression-java="worm6.setLocation(504, 90)" enable="true"/>
+                <call expression="removeObject(worm6)" expression-java="removeObject(worm6)" enable="true"/>
+                <call expression="worm.setLocation(406,148)" expression-java="worm.setLocation(406, 148)" enable="true"/>
+                <call expression="removeObject(worm)" expression-java="removeObject(worm)" enable="true"/>
+                <call expression="worm5.setLocation(356,261)" expression-java="worm5.setLocation(356, 261)" enable="true"/>
+                <call expression="removeObject(worm5)" expression-java="removeObject(worm5)" enable="true"/>
+                <call expression="worm10.setLocation(250,372)" expression-java="worm10.setLocation(250, 372)" enable="true"/>
+                <call expression="worm10.setLocation(265,370)" expression-java="worm10.setLocation(265, 370)" enable="true"/>
+                <call expression="removeObject(worm10)" expression-java="removeObject(worm10)" enable="true"/>
+                <call expression="removeObject(worm4)" expression-java="removeObject(worm4)" enable="true"/>
+                <call expression="removeObject(worm8)" expression-java="removeObject(worm8)" enable="true"/>
+                <call expression="removeObject(worm2)" expression-java="removeObject(worm2)" enable="true"/>
+                <call expression="removeObject(worm7)" expression-java="removeObject(worm7)" enable="true"/>
+                <call expression="removeObject(worm11)" expression-java="removeObject(worm11)" enable="true"/>
+                <call expression="removeObject(lobster4)" expression-java="removeObject(lobster4)" enable="true"/>
+                <call expression="removeObject(lobster2)" expression-java="removeObject(lobster2)" enable="true"/>
+                <call expression="removeObject(lobster)" expression-java="removeObject(lobster)" enable="true"/>
+                <call expression="removeObject(lobster3)" expression-java="removeObject(lobster3)" enable="true"/>
+                <call expression="removeObject(worm3)" expression-java="removeObject(worm3)" enable="true"/>
+                <call expression="removeObject(worm9)" expression-java="removeObject(worm9)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster5" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster5,140,221)" expression-java="addObject(lobster5, 140, 221)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster6" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster6,428,89)" expression-java="addObject(lobster6, 428, 89)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster7" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster7,24,89)" expression-java="addObject(lobster7, 24, 89)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster8" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster8,506,413)" expression-java="addObject(lobster8, 506, 413)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster9" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster9,106,452)" expression-java="addObject(lobster9, 106, 452)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster10" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster10,347,346)" expression-java="addObject(lobster10, 347, 346)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm12" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm12,96,114)" expression-java="addObject(worm12, 96, 114)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm13" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm13,279,214)" expression-java="addObject(worm13, 279, 214)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm14" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm14,470,337)" expression-java="addObject(worm14, 470, 337)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm15" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm15,100,512)" expression-java="addObject(worm15, 100, 512)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm16" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm16,306,42)" expression-java="addObject(worm16, 306, 42)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm17" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm17,476,509)" expression-java="addObject(worm17, 476, 509)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm18" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm18,51,280)" expression-java="addObject(worm18, 51, 280)" enable="true"/>
+                <variable type="Worm" type-java="Worm" name="worm19" value="new Worm()" value-java=" new Worm()" enable="true"/>
+                <call expression="addObject(worm19,451,141)" expression-java="addObject(worm19, 451, 141)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster11" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster11,173,58)" expression-java="addObject(lobster11, 173, 58)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster12" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster12,62,375)" expression-java="addObject(lobster12, 62, 375)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster13" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster13,234,411)" expression-java="addObject(lobster13, 234, 411)" enable="true"/>
+                <variable type="Lobster" type-java="Lobster" name="lobster14" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
+                <call expression="addObject(lobster14,483,37)" expression-java="addObject(lobster14, 483, 37)" enable="true"/>
+                <variable type="Ladybug" type-java="Ladybug" name="ladybug" value="new Ladybug()" value-java=" new Ladybug()" enable="true"/>
+                <call expression="addObject(ladybug,340,272)" expression-java="addObject(ladybug, 340, 272)" enable="true"/>
+                <variable type="Ladybug" type-java="Ladybug" name="ladybug2" value="new Ladybug()" value-java=" new Ladybug()" enable="true"/>
+                <call expression="addObject(ladybug2,201,510)" expression-java="addObject(ladybug2, 201, 510)" enable="true"/>
+                <variable type="Ladybug" type-java="Ladybug" name="ladybug3" value="new Ladybug()" value-java=" new Ladybug()" enable="true"/>
+                <call expression="addObject(ladybug3,48,165)" expression-java="addObject(ladybug3, 48, 165)" enable="true"/>
+                <variable type="Ladybug" type-java="Ladybug" name="ladybug4" value="new Ladybug()" value-java=" new Ladybug()" enable="true"/>
+                <call expression="addObject(ladybug4,187,131)" expression-java="addObject(ladybug4, 187, 131)" enable="true"/>
+                <variable type="Ladybug" type-java="Ladybug" name="ladybug5" value="new Ladybug()" value-java=" new Ladybug()" enable="true"/>
+                <call expression="addObject(ladybug5,409,402)" expression-java="addObject(ladybug5, 409, 402)" enable="true"/>
+                <variable type="Wombat" type-java="Wombat" name="wombat" value="new Wombat()" value-java=" new Wombat()" enable="true"/>
+                <call expression="addObject(wombat,366,184)" expression-java="addObject(wombat, 366, 184)" enable="true"/>
+                <variable type="Wombat" type-java="Wombat" name="wombat2" value="new Wombat()" value-java=" new Wombat()" enable="true"/>
+                <call expression="addObject(wombat2,82,42)" expression-java="addObject(wombat2, 82, 42)" enable="true"/>
+                <variable type="Wombat" type-java="Wombat" name="wombat3" value="new Wombat()" value-java=" new Wombat()" enable="true"/>
+                <call expression="addObject(wombat3,511,166)" expression-java="addObject(wombat3, 511, 166)" enable="true"/>
+                <variable type="Wombat" type-java="Wombat" name="wombat4" value="new Wombat()" value-java=" new Wombat()" enable="true"/>
+                <call expression="addObject(wombat4,387,46)" expression-java="addObject(wombat4, 387, 46)" enable="true"/>
+                <variable type="Wombat" type-java="Wombat" name="wombat5" value="new Wombat()" value-java=" new Wombat()" enable="true"/>
+                <call expression="addObject(wombat5,424,486)" expression-java="addObject(wombat5, 424, 486)" enable="true"/>
+                <variable type="Wombat" type-java="Wombat" name="wombat6" value="new Wombat()" value-java=" new Wombat()" enable="true"/>
+                <call expression="addObject(wombat6,150,369)" expression-java="addObject(wombat6, 150, 369)" enable="true"/>
+            </body>
+        </method>
+    </methods>
 </class>
